@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ScrivenerProject Template="No" Version="1.0" Creator="SCRWIN-1.8.5.0">
+<ScrivenerProject Template="No" Version="1.0" Creator="SCRWIN-1.8.0.0">
     <Binder>
         <BinderItem ID="12" Created="2007-03-25 20:48:19 +0000" Modified="2014-06-12 22:17:20 +0000" Type="Text">
             <Title>Novel Format</Title>
@@ -31,8 +31,8 @@
                 </CorkboardSettings>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem ID="4" Created="2006-11-04 16:31:13 +0000" Modified="2011-03-14 14:25:45 +0000" Type="Folder">
-                    <Title>Chapter</Title>
+                <BinderItem ID="4" Created="2006-11-04 16:31:13 +0000" Modified="2015-07-21 00:42:00 +0000" Type="Folder">
+                    <Title>Capitulo</Title>
                     <MetaData>
                         <LabelID>2</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -47,8 +47,8 @@
                         </CorkboardSettings>
                     </CorkboardAndOutliner>
                     <Children>
-                        <BinderItem ID="6" Created="2006-11-04 16:33:03 +0000" Modified="2007-03-25 20:51:37 +0000" Type="Text">
-                            <Title>Scene</Title>
+                        <BinderItem ID="6" Created="2006-11-04 16:33:03 +0000" Modified="2015-07-21 00:41:58 +0000" Type="Text">
+                            <Title>Escena</Title>
                             <MetaData>
                                 <LabelID>4</LabelID>
                                 <StatusID>2</StatusID>
@@ -68,8 +68,8 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="17" Created="2010-10-19 12:06:35 +0000" Modified="2010-10-19 12:06:51 +0000" Type="Folder">
-            <Title>Characters</Title>
+        <BinderItem ID="17" Created="2010-10-19 12:06:35 +0000" Modified="2015-07-21 00:41:52 +0000" Type="Folder">
+            <Title>Personajes</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <NotesTextSelection>0,0</NotesTextSelection>
@@ -84,8 +84,8 @@
                 </CorkboardSettings>
             </CorkboardAndOutliner>
         </BinderItem>
-        <BinderItem ID="18" Created="2010-10-19 12:06:37 +0000" Modified="2010-10-19 12:06:56 +0000" Type="Folder">
-            <Title>Places</Title>
+        <BinderItem ID="18" Created="2010-10-19 12:06:37 +0000" Modified="2015-07-21 00:41:55 +0000" Type="Folder">
+            <Title>Lugares</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <NotesTextSelection>0,0</NotesTextSelection>
@@ -271,8 +271,8 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="1" Created="2006-11-04 16:27:29 +0000" Modified="2006-11-04 16:27:29 +0000" Type="ResearchFolder">
-            <Title>Research</Title>
+        <BinderItem ID="1" Created="2006-11-04 16:27:29 +0000" Modified="2015-07-21 00:17:00 +0000" Type="ResearchFolder">
+            <Title>Investigaciones</Title>
             <MetaData>
                 <PageBreakBefore>Yes</PageBreakBefore>
                 <NotesTextSelection>0,0</NotesTextSelection>
@@ -351,8 +351,8 @@
                 </BinderItem>
             </Children>
         </BinderItem>
-        <BinderItem ID="20" Created="2010-10-19 12:57:18 +0000" Modified="2015-07-20 17:33:14 +0000" Type="Folder">
-            <Title>Template Sheets</Title>
+        <BinderItem ID="20" Created="2010-10-19 12:57:18 +0000" Modified="2015-07-21 00:17:06 +0000" Type="Folder">
+            <Title>Templates</Title>
             <MetaData>
                 <IncludeInCompile>Yes</IncludeInCompile>
                 <NotesTextSelection>0,0</NotesTextSelection>
@@ -366,8 +366,8 @@
                 </CorkboardSettings>
             </CorkboardAndOutliner>
             <Children>
-                <BinderItem ID="25" Created="2014-06-12 05:52:57 +0000" Modified="2014-06-12 05:52:57 +0000" Type="Text">
-                    <Title>Character Sketch</Title>
+                <BinderItem ID="25" Created="2014-06-12 05:52:57 +0000" Modified="2015-07-21 00:18:16 +0000" Type="Text">
+                    <Title>Template de Personajes</Title>
                     <MetaData>
                         <LabelID>6</LabelID>
                         <IncludeInCompile>Yes</IncludeInCompile>
@@ -378,6 +378,7 @@
                         <IconFileName>Characters (Character Sheet).tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
+                        <TextSelection>123,123</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <CorkboardAndOutliner>
@@ -386,8 +387,8 @@
                         </CorkboardSettings>
                     </CorkboardAndOutliner>
                 </BinderItem>
-                <BinderItem ID="24" Created="2014-06-12 05:52:57 +0000" Modified="2014-06-12 05:52:57 +0000" Type="Text">
-                    <Title>Setting Sketch</Title>
+                <BinderItem ID="24" Created="2014-06-12 05:52:57 +0000" Modified="2015-07-21 00:20:10 +0000" Type="Text">
+                    <Title>Template de Escena</Title>
                     <MetaData>
                         <IncludeInCompile>Yes</IncludeInCompile>
                         <FileExtension>rtf</FileExtension>
@@ -395,11 +396,33 @@
                         <IconFileName>Locations (Location Sheet).tiff</IconFileName>
                     </MetaData>
                     <TextSettings>
+                        <TextSelection>71,71</TextSelection>
                         <Target Type="Words">0</Target>
                     </TextSettings>
                     <CorkboardAndOutliner>
                         <CorkboardSettings>
                             <FreeformMode>Yes</FreeformMode>
+                        </CorkboardSettings>
+                    </CorkboardAndOutliner>
+                </BinderItem>
+                <BinderItem ID="3" Created="2015-07-21 00:20:15 +0000" Modified="2015-07-21 00:22:31 +0000" Type="Text">
+                    <Title>Template de Criaturas</Title>
+                    <MetaData>
+                        <LabelID>6</LabelID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                        <FileExtension>rtf</FileExtension>
+                        <NotesTextSelection>0,0</NotesTextSelection>
+                        <ShowSynopsisImage>Yes</ShowSynopsisImage>
+                        <IndexCardImageFileExtension>png</IndexCardImageFileExtension>
+                        <IconFileName>Characters (Character Sheet).tiff</IconFileName>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>197,197</TextSelection>
+                        <Target Type="Words">0</Target>
+                    </TextSettings>
+                    <CorkboardAndOutliner>
+                        <CorkboardSettings>
+                            <FreeformMode>No</FreeformMode>
                         </CorkboardSettings>
                     </CorkboardAndOutliner>
                 </BinderItem>
